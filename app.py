@@ -1,4 +1,5 @@
-def greet(name):    return f"Greetings, {name}! Hope you're doing well."
+def greet(name):
+    return f"Greetings, {name}! Hope you're doing well."
 
 def farewell(name):
     return f"Goodbye, {name}! Take care."
@@ -6,9 +7,11 @@ def farewell(name):
 def shout(name):
     return f"HEY {name.upper()}!!"
 
-if __name__ == "__main__":
+def whisper(name):
+    return f"...psst, {name}..."
 
+if __name__ == "__main__":
     print(greet("Claude"))
     print(shout("Claude"))
+    print(whisper("Claude"))
     print(farewell("Claude"))
-
