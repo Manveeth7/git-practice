@@ -14,4 +14,8 @@ if __name__ == "__main__":
     print(greet("Claude"))
     print(shout("Claude"))
     print(whisper("Claude"))
+    print(sing("Claude"))
     print(farewell("Claude"))
+
+def sing(name):
+    return f"La la la, {name} is here!"
